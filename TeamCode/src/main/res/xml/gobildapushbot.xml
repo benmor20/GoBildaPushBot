@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC" name="Rover Ruckus">
+    <LynxUsbDevice name="Expansion Hub Portal 2" serialNumber="DQ" parentModuleAddress="2">
+        <LynxModule name="Expansion Hub 2" port="1">
+            <NeveRest40Gearmotor name="leftMotor" port="0"/>
+            <NeveRest40Gearmotor name="rightMotor" port="1"/>
+            <NeveRest40Gearmotor name="arm" port="2"/>
+        </LynxModule>
+    </LynxUsbDevice>
+</Robot>
